@@ -71,8 +71,8 @@ const SideNave: Component = () => {
 
 
                         }</For>
-                        <a class='flex justify-center items-center pt-8 cursor-pointer z-50 relative' onClick={() => openDialog()} data-modal-target="popup-modal" data-modal-toggle="popup-modal">
-                            <img src='/svg/exit.svg' />
+                        <a class='flex justify-center items-center cursor-pointer z-50 relative' style={{"margin-top":'3vh'}} onClick={() => openDialog()} data-modal-target="popup-modal" data-modal-toggle="popup-modal" >
+                            <img src='/svg/exit.svg' style={{height:'4vh'}} />
                         </a>
                     </div>
                 </div>
