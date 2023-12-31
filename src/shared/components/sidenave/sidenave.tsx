@@ -16,10 +16,12 @@ const SideNave: Component = () => {
 
     createEffect(() => {
         const location = useLocation()
-        console.log('checkruter', location.pathname)
+        console.log('checkruter', location.pathname) // mengetahui path yang sedang aktif
         setPages(location.pathname)
     })
 
+    //kalau mau menambah menu page di sini
+    // jangan lupa route nya sama dengan path yang ada di routes.tsx
     const listPagenyo: any = [
         {
             name: 'Dashboard',
@@ -44,7 +46,7 @@ const SideNave: Component = () => {
     ]
 
     const openDialog = () => {
-        store.setopenConrimLogut(true)
+        store.setopenConrimLogut(true) //trging dialog
     }
 
     return (
@@ -77,6 +79,8 @@ const SideNave: Component = () => {
                     </div>
                 </div>
             </div>
+
+            {/* dialog confirm logout */}
             <DialogConfirmLogout />
         </>
 

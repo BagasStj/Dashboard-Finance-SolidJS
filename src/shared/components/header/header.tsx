@@ -34,7 +34,7 @@ const Header: Component = () => {
             <div class='flex items-center' style={{ height: '10vh' }} >
                 <div class='leading-2 w-1/2 justify-start'>
                     <div class='flex'>
-                        <div style={{ "font-size": '3.5vh', "font-weight": 700 }}> Welcome Back Kids ,</div>
+                        <div style={{ "font-size": '3.5vh', "font-weight": 700 }}> Selamat Datang Kembali Dek ,</div>
                         <div style={{ "font-size": '3.5vh', "font-weight": 700 }} class="waving" data-hover="👋"></div>
                     </div>
                     <div style={{ "font-size": '2vh' }}>{formattedDateTime()}</div>
@@ -42,15 +42,16 @@ const Header: Component = () => {
                 <div class='w-1/2 justify-end flex'>
                     <div class='flex items-center'>
                         <div>
-                            <div style={{"font-size":'2.3vh',"font-weight":600}}>Asep Oli Samping</div>
+                            <div style={{"font-size":'2.3vh',"font-weight":600}}>Kentut Mendidih</div>
                             <div  style={{"font-size":'1.5vh',"font-weight":500}}>AsepOliSamping@gmail.com</div>
                         </div>
                         <img src='svg/pp.png' style={{height:'5vh',"border-radius":'4vh',"margin-left":'1vw'}}/>
+                        
                     </div>
                     <div class='border-r-2 divide-solid mx-3'></div>
                     <div class='flex items-center'>
                         <div>
-                            <div class='jkt'>Jakarta</div>
+                            <div class='jkt'>Dihatimu</div>
                             <div class='suhu'>32 °C </div>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="6vh" height="6vh" viewBox="0 0 61 53" fill="#D6B404">

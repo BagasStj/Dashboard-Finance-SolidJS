@@ -6,7 +6,9 @@ const PemasukanPage :Component = () => {
         <>
         <div class='w-full h-svh' style={{padding:'1vh 2vh 2vh 0vh'}}>
             <Header></Header>
-            <div>Page Pemasuken</div>
+            <div class='w-full py-2'>
+                    tes
+            </div>
         </div>
     </>    )
 }
