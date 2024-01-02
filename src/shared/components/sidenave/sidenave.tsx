@@ -52,7 +52,7 @@ const SideNave: Component = () => {
     return (
         <>
             <div class=' h-svh w-1/12  flex items-center'>
-                <div class='gradient-border-sidenave flex justify-center'>
+                <div class='gradient-border-sidenave flex justify-center z-50'>
                     <div>
                         <div style={{ height: '10vh',"padding-top":'3vh' }} class='flex justify-center'>
                             <img src='/logo_1.png' style={{ height: '5vh' }}></img>

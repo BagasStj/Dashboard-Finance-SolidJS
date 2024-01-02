@@ -1,6 +1,7 @@
-import { Component, For } from 'solid-js';
+import { Component, For, onMount } from 'solid-js';
 import Header from '../../shared/components/header/header';
 import './dashboard-page.css'
+import { Select, initTE } from "tw-elements";
 
 const DashboardPage: Component = () => {
     const pemasukan: any[] = [
@@ -38,6 +39,10 @@ const DashboardPage: Component = () => {
         const formatted = value.toLocaleString("en-US", { useGrouping: true });
         return formatted
     };
+    onMount(() => {
+        initTE({ Select });
+    });
+
 
     return (
         <>
@@ -65,6 +70,13 @@ const DashboardPage: Component = () => {
                     </div>
                     <div class='w-full'>
                         <div class='vertical-line'></div>
+                    </div>
+                    <div>
+                        <select data-te-select-init onchange={() => {}} >
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                        </select>
+                        <label data-te-select-label-ref>Example label</label>
                     </div>
                 </div>
             </div>
